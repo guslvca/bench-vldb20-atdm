@@ -1,3 +1,13 @@
+# Fork Objective:
+This is a fork of the original repository to include files related to a course project for the ATDM subject.
+
+The project involves reproducing some benchmarks from the Mind the Gap article, including DeepMVI and DynaMMO.
+
+Additionally, it provides inputs and an overview of methods for handling missing data in time series.
+
+Aditional files used to plot the results in a different format have been included in the master branch, under `plot_scripts` dir.
+
+
 # ImputeBench: Benchmark of Imputation Techniques in Time Series
 
 ImputeBench implements over 15 advanced imputation techniques for missing blocks in time series. It evaluates their precision and runtime on various real-world time series datasets using different recovery scenarios. Technical details can be found in our PVLDB 2020 paper: <a href = "http://www.vldb.org/pvldb/vol13/p768-khayati.pdf">Mind the Gap: An Experimental Evaluation of Imputation of Missing Values Techniques in Time Series </a>. The benchmark can be easily extended with new algorithms (C/C++, Python, or Matlab), datasets, and scenarios.
